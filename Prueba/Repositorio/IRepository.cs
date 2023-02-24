@@ -1,7 +1,6 @@
 ﻿using System;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Prueba.ApiClients;
 using Prueba.DOTs;
 using Prueba.Entities;
