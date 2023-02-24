@@ -24,7 +24,7 @@ namespace Prueba
 
             // #========= Configuración de datos en memoria [Productos y Diccionario de estados] =========#
             services.AddMemoryCache();
-            var cacheOptions = new MemoryCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromMinutes(1));
+            var cacheOptions = new MemoryCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromMinutes(5));
             var dictionary = new Dictionary<int, string>
             {
                 {1, "Active"},
